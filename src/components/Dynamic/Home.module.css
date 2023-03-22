@@ -1,0 +1,39 @@
+.main_box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0% 10%;
+    margin: 20px;
+}
+
+.sub{
+    background-image: url('./Images/clipart.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    height: 230px;
+    width: 150px;
+    color: white;
+    background-color: rgb(77, 74, 74);
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0.83;
+}
+
+.sub h2 {
+    margin: auto 0;
+    font-size: 2.3rem;
+}
+
+.sub_header {
+    background-color: rgb(68, 66, 66);
+    padding: 0% 10%;
+    text-align: left;
+    box-shadow: -10px -10px -10px -10px rgba(0, 0, 0, 1);
+  }
+  
+  .sub_header h2 {
+    margin: 0%;
+    padding: 10px 0;
+  }

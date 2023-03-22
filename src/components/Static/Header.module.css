@@ -1,0 +1,85 @@
+header {
+  color: white;
+  width: 100%;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.main_header {
+  width: 80%;
+  display: flex;
+  background-color: rgb(26, 92, 179);
+  padding: 0% 10%;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.header_left {
+  width: 50%;
+  text-align: left;
+}
+
+.header_right {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.header_right a {
+  text-decoration: none;
+  color: white;
+}
+
+.header_right button {
+  background-color: rgb(68, 66, 66);
+  color: white;
+  padding: 10px 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.sub_header {
+  background-color: rgb(68, 66, 66);
+  padding: 0% 10%;
+  text-align: left;
+  box-shadow: -10px -10px -10px -10px rgba(0, 0, 0, 1);
+}
+
+.sub_header h2 {
+  margin: 0%;
+  padding: 10px 0;
+}
+
+@media only screen and (max-width: 900px) {
+  .main_header {
+    padding: 0 2%;
+    width: 96%;
+  }
+  .sub_header{
+    padding: 0% 2%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .main_header {
+    display: block;
+    padding: 20px 0;
+    width: 100%;
+    
+  }
+
+  .header_left {
+    width: 100%;
+    text-align: center;
+  }
+
+  .header_right {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .sub_header{
+    text-align: center;
+  }
+}

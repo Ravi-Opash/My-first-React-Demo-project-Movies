@@ -1,0 +1,47 @@
+.main_box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0% 7%;
+  margin: 30px;
+  justify-content: center;
+}
+
+.main p {
+  text-align: center;
+}
+
+.main {
+  height: auto;
+  width: 130px;
+}
+
+.sub {
+  display: flex;
+  height: 180px;
+  width: 130px;
+  color: white;
+  background-color: antiquewhite;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.sub img {
+  width: 100%;
+}
+
+.ptag {
+    text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+  .main_box {
+    padding: 0% 2%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .main_box {
+    padding: 0% 0.5%;
+  }
+}
